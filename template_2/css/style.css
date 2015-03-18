@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body{
+    background:#fff;
+    font:normal 16px "PT Sans", "sans-serif";
+    color:#717171;
+}
+
+.container{
+    width:980px;
+    margin:0 auto;
+}
+
+.head{
+    text-align:center;
+}
+
+h1, h2{
+    font:normal 24px 'helios';
+    color:#656363;
+    text-transform:uppercase;
+    margin:50px 0 32px;
+}
+h1{
+    margin:0 0;
+}
+
+.slogan{
+    font-size:18px;
+    line-height: 30px;
+    margin-bottom:31px;
+}
+
+.items-row{
+margin-bottom:67px;
+}
+.clearfix:after{
+    content:"";
+    display: block;
+    height: 0;
+   	clear: both;
+}
+
+.item{
+    float:left;
+    border:4px solid #f7f6f6;
+    width:300px;
+    font: normal 18px 'PT Sans';
+    margin-right:40px;
+    position:relative;
+}
+.items-row :last-child{
+margin:0 0;
+}
+
+.container-img{
+   line-height:320px;
+}
+
+.container-img img{
+    width:230px;
+    vertical-align:middle;
+}
+
+.caption{
+    text-transform:uppercase;
+    padding-bottom: 25px;
+}
+
+.name{
+    height:28px;
+    font-size: 16px;
+}
+
+.sup{
+    vertical-align:text-top;
+    font-weight:normal;
+    font-size: 12px;
+}
+
+.discount{
+    background:#f44d55;
+    color:#fff;
+    border-left:4px solid #de3940;
+    position:absolute;
+    top:26px;
+    left:-4px;
+    width:80px;
+    height:38px;
+    text-align:center;
+    line-height:38px;
+}
+
+.options{
+    width:480px;
+    height:68px;
+    float:right;
+    margin-bottom:31px;
+    padding-left: 88px;
+}
+.col-1{
+    float:left;
+}
+
+#time{
+    background:url("../img/icons.jpg") no-repeat 0 0;
+}
+#stat{
+    background:url("../img/icons.jpg") no-repeat 0 -69px;
+}
+#community{
+    background:url("../img/icons.jpg") no-repeat 0 -138px;
+}
+#chat{
+    background:url("../img/icons.jpg") no-repeat 0 -208px;
+}
+#compete{
+    background:url("../img/icons.jpg") no-repeat 0 -278px;
+}
+#docs{
+    background:url("../img/icons.jpg") no-repeat 0 -347px;
+}
+
+h3{
+    color:#1b1b1b;
+    font-size:18px;
+    height:26px;
+    line-height: 20px;
+}
+
+.options p{
+    color:#999;
+    line-height:20px;
+    max-height:40px;
+    overflow:hidden;
+}
